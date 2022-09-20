@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+  }
+
+.navibar{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: white;
+    height: 105px;
+}
+
+body{
+    margin: 0;
+}
+
+.logo img{
+width: 130px;
+height: 50%;
+margin-left: 135px;
+}
+
+.menu{
+    padding-left: 662px;
+}
+
+.menu ul{
+    list-style: none;
+    font-family: system-ui,'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15.7px;
+    display: flex;
+}
+
+.menu li{
+    margin-left: 28px;
+    letter-spacing: 2px;
+}
+
+.lighthome{
+    background-image: url(Light_header.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 700px;
+    background-position: center;
+    background-size: cover;
+    width: 1905px;
+    height: 653px;
+}
+
+
+.lighthome img{
+    margin-top: 250px;
+    margin-left: 252px;
+    width: 849px;
+    height: 153px;
+}
+
+.threeimg{
+    display: flex;
+    margin-top: 120px;
+    margin-left: 142px;
+    margin-right: 142px;
+    margin-bottom: 210px;
+}
+
+.threeimg p{
+    text-align: center;
+    font-family: system-ui,'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 0.16em;
+
+}
+
+.img1 img{
+    width: 517px;
+    height: 345px;
+    margin-right: 34px;
+}
+
+.img2 img{
+    width: 517px;
+    height: 345px;
+    margin-right: 34px;
+}
+
+.img3 img{
+    width: 517px;
+    height: 345px;
+}
+
+.social{
+    margin-left: 883px;
+    margin-top: 160px;
+    display: flex;
+    letter-spacing: 17px;
+    font-size: 22px;
+}
+
+.footer{
+    text-align: center;
+    font-family: system-ui,'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 4px;
+    font-weight: 300;
+    margin-top: 40px;
+    font-size: 14.5px;
+    margin-bottom: 68px;
+}
+
+.facebook:hover{
+    color: gray;
+}
+
+.twitter:hover{
+    color: gray;
+}
+
+.youtube:hover{
+    color: gray;
+}
+
+.instagram:hover{
+    color: gray;
+}
+
+.footer a{
+    text-decoration: none;
+    color: rgb(54, 52, 52);
+}
+
+.footer p{
+    color: rgb(54, 52, 52);
+}
+
+.footer a:hover{
+    color: rgb(129, 125, 125);
+}
+
+.menu li:hover{
+    color: rgb(129, 125, 125);
+    cursor: pointer;
+}
